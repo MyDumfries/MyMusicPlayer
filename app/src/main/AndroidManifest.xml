@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mydumfries.mymusicplayer"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+	<uses-permission android:name="android.permission.WAKE_LOCK" />
+	<uses-permission android:name="com.android.alarm.permission.SET_ALARM"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <application
+        android:icon="@drawable/mymusic"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".MyMusicPlayerActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter android:priority="1000">
+                <action android:name="android.intent.action.MEDIA_BUTTON" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.android.apps.drive.DRIVE_OPEN" />
+                <data android:mimeType="application/vnd.google-apps.drive-sdk.AIzaSyCex5kEGsJ6rLhJd_fIkGjz-VnV3G5LMS8" />
+                <data android:mimeType="image/png" />
+                <data android:mimeType="image/jpeg" />
+                <data android:mimeType="image/jpg" />
+            </intent-filter>
+        </activity>
+        <activity android:name="PlayPhoneMusic" android:screenOrientation="portrait">
+            <!-- FOR PHONE android:screenOrientation="portrait" -->
+            <!-- FOR TABLET android:configChanges="orientation|screenSize" -->
+            <meta-data android:name="com.google.android.apps.drive.APP_ID" android:value="id=AIzaSyCex5kEGsJ6rLhJd_fIkGjz-VnV3G5LMS8" />
+        </activity>
+        <activity android:name="PlayListActivity" android:screenOrientation="portrait" />
+        <activity android:name="PlayListEditor" android:screenOrientation="portrait" />
+        <activity android:name="FileChooser" android:screenOrientation="portrait" />
+        <activity android:name="SettingsActivity" android:screenOrientation="portrait" />
+        <activity android:name="HelpActivity" android:screenOrientation="portrait" />
+        <receiver android:name=".Alarm">   
+            <intent-filter android:priority="1000">
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".AutoStart">
+        <intent-filter>
+            <action android:name="android.intent.action.BOOT_COMPLETED" />
+        </intent-filter>
+        </receiver>
+    </application>
+</manifest>

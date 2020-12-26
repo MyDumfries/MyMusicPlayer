@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+id/textView1b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Play Lists"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/purple" />
+        <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="329dp"
+        android:layout_weight="0.56"
+        android:divider="#242424"
+        android:dividerHeight="1dp"
+        android:listSelector="@drawable/list_selector" />       
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+                <Button
+            android:id="@+id/button_createplaylist"
+            android:layout_width="123dp"
+            android:layout_height="79dp"
+            android:gravity="center_horizontal"
+            android:text="Create New Playlist on Phone" />
+                        <Button
+            android:id="@+id/button_createpcplaylist"
+            android:layout_width="123dp"
+            android:layout_height="79dp"
+            android:gravity="center_horizontal"
+            android:text="Create New Playlist on Desktop" />
+            <Button
+            android:id="@+id/button_createItunesplaylist"
+            android:layout_width="123dp"
+            android:layout_height="79dp"
+            android:gravity="center_horizontal"
+            android:text="Import Itunes Playlist" />
+
+    </LinearLayout>
+
+</LinearLayout>

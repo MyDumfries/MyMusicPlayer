@@ -1,0 +1,28 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+//  <item
+        android:id="@+id/search_menu_item"
+        android:title="Search"
+        android:icon="@android:drawable/ic_menu_search">
+    </item>
+    <item 
+    	android:id="@+id/sleep_menu_item"
+    	android:title="Alarm"
+    	android:icon="@drawable/sleep"></item>
+    	<item 
+    	android:id="@+id/refresh_menu_item"
+    	android:title="Refresh Songs"
+    	android:icon="@drawable/refresh"></item>
+	<item
+		android:id="@+id/editallplaylist_menu_item"
+		android:title="Edit All Playlist Tags"></item>
+	<item
+		android:id="@+id/addall2_menu_item"
+		android:title="Add All Songs to Playlist"></item>
+	<item
+		android:id="@+id/display_current_session"
+		android:title="Display Current Session"></item>
+	<item
+		android:id="@+id/autoedit_menu_item"
+		android:title="Auto Edit All Playlist Tags"></item>
+</menu>

@@ -1,0 +1,17 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+  <item
+        android:id="@+id/search2_menu_item"
+        android:title="Search"
+        android:icon="@android:drawable/ic_menu_search">
+    </item>
+    <item 
+    	android:id="@+id/selected_menu_item"
+    	android:title="Display Selected Only"></item>
+    	<item 
+    	android:id="@+id/displayall_menu_item"
+    	android:title="Diplay All Songs"></item>
+	<item
+		android:id="@+id/addall_menu_item"
+		android:title="Add All Songs to Playlist"></item>
+</menu>

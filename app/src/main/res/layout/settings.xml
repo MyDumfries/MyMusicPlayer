@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:background="@color/background"
+    android:layout_height="fill_parent">
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:isScrollContainer="true"
+        android:scrollbars="vertical"
+        android:scrollbarAlwaysDrawVerticalTrack="true">
+        <LinearLayout 
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+<TextView 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" 
+	android:id="@+id/MenuItem_Help"
+	android:text="Help"
+	android:textColor="@color/purple" 
+	android:textSize="14pt" 
+	android:gravity="center_horizontal" 
+	android:height="25pt">
+</TextView>
+			<View
+				android:layout_width="fill_parent"
+				android:layout_height="2dp"
+				android:background="#c0c0c0"/>
+<TextView 
+	android:id="@+id/MenuItem_NetworkID"
+	android:text="Network ID and Password"
+	android:layout_height="wrap_content" 
+	android:layout_width="fill_parent" 
+	android:textColor="@color/purple" 
+	android:textSize="14pt" 
+	android:gravity="center_horizontal" 
+	android:height="25pt">
+</TextView>
+			<View
+				android:layout_width="fill_parent"
+				android:layout_height="2dp"
+				android:background="#c0c0c0"/>
+<TextView 
+	android:id="@+id/MenuItem_PhoneLocation"
+	android:text="Location of Phone Music"
+	android:layout_height="wrap_content" 
+	android:layout_width="fill_parent" 
+	android:textColor="@color/purple" 
+	android:textSize="14pt" 
+	android:gravity="center_horizontal" 
+	android:height="25pt">
+</TextView>
+			<View
+				android:layout_width="fill_parent"
+				android:layout_height="2dp"
+				android:background="#c0c0c0"/>
+<TextView 
+	android:id="@+id/MenuItem_PCLocation"
+	android:text="Location of Network Music"
+	android:layout_height="wrap_content" 
+	android:layout_width="fill_parent" 
+	android:textColor="@color/purple" 
+	android:textSize="14pt" 
+	android:gravity="center_horizontal" 
+	android:height="25pt">
+</TextView>
+			<View
+				android:layout_width="fill_parent"
+				android:layout_height="2dp"
+				android:background="#c0c0c0"/>
+			<TextView
+				android:id="@+id/MenuItem_BackUpDB"
+				android:layout_height="wrap_content"
+				android:text="Back Up DataBase"
+				android:textColor="@color/purple"
+				android:textSize="14pt"
+				android:gravity="center_horizontal"
+				android:height="25pt"
+				android:layout_width="fill_parent">
+			</TextView>
+			<View
+				android:layout_width="fill_parent"
+				android:layout_height="2dp"
+				android:background="#c0c0c0"/>
+			<TextView
+				android:id="@+id/MenuItem_RestoreDB"
+				android:layout_height="wrap_content"
+				android:text="Restore DataBase"
+				android:textColor="@color/purple"
+				android:textSize="14pt"
+				android:gravity="center_horizontal"
+				android:height="25pt"
+				android:layout_width="fill_parent">
+			</TextView>
+			<View
+				android:layout_width="fill_parent"
+				android:layout_height="2dp"
+				android:background="#c0c0c0"/>
+			<TextView
+				android:id="@+id/MenuItem_Reset"
+				android:layout_height="wrap_content"
+				android:text="Reset All Settings"
+				android:textColor="@color/purple"
+				android:textSize="14pt"
+				android:gravity="center_horizontal"
+				android:height="25pt"
+				android:layout_width="fill_parent">
+			</TextView>
+			<View
+				android:layout_width="fill_parent"
+				android:layout_height="2dp"
+				android:background="#c0c0c0"/>
+            <ListView
+                android:id="@+id/listview2"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:textColor="@color/purple"
+                android:visibility="gone" />
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

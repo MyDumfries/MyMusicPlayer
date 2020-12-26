@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: ch.swaechter:smbjwrapper:1.1.0@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ch.swaechter/smbjwrapper/1.1.0/f62fd49ae8777a7b789e54ef6898e44d445b784b/smbjwrapper-1.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ch.swaechter/smbjwrapper/1.1.0/cf4fb132d19c23820baab0fd06fe13db0d0efbb6/smbjwrapper-1.1.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ch.swaechter/smbjwrapper/1.1.0/16d71e8a9e717f10f4a9728f896a382ece3c4676/smbjwrapper-1.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,9 @@
+Thank you for choosing MyMusicPlayer. This is NOT an all singing, all dancing, Music Player, deliberately so!
+
+I first started to write MyMusicPlayer some time ago when I had an Orange San Francisco phone which measured it's storage space in MB rather than GB! I found that all the Music Players in The Play Store took up far too much room on my phone, so I decided to write my own. Over the years I have added a lot of new features, but the app size is still only 2.09mb.  You do need a Data Base of your songs, my reasonably sized Collection uses less than 500kb.  Also, to play songs from a Network PC, the song is temporarily downloaded to your phone, so you will need room for this.
+
+What I did not want in a Music Player were Album Art, lyrics, etc. I also did not want MyMusicPlayer to scan EVERYWHERE for sound files as that picks up files that are not actual songs. Instead, all songs must be stored in one Directory, in folders for Artists and sub folders for Albums (i.e. Music/Elvis/Greatest Hits/Hound Dog.mp3). If you don't know the album name, create an "Unknown" folder. Songs must be in mp3 format.
+
+When you first select either "Play Music on Phone" or "Play Music on PC" you will be asked to select any song from your collection. When you do this, the app will scan your Music Folder and create a Data Base of your songs.
+
+Visit http://www.mydumfries.com/MyMusicPlayer/help.php for Online help.

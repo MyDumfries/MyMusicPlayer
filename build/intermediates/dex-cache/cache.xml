@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\stuar_000\StudioProjects\MyMusicPlayer\app\libs\MyID3_for_Android.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="36069803c7ed5def20d753420857f40a5a91cd06">
+        <dex dex="C:\Users\stuar_000\StudioProjects\MyMusicPlayer\app\build\intermediates\transforms\dex\debug\folders\1000\2\MyID3_for_Android_3c758ae9b66ec7f9847526fbfad276067f03fd40\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\stuar_000\StudioProjects\MyMusicPlayer\app\libs\jcifs-1.3.17.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1a2f0e28cc9497fb4927ea2422605fb8023969b6">
+        <dex dex="C:\Users\stuar_000\StudioProjects\MyMusicPlayer\app\build\intermediates\transforms\dex\debug\folders\1000\2\jcifs-1.3.17_57ceb487a5cb2629f958d3dc0fcb01e4ef1b1b77\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\stuar_000\StudioProjects\MyMusicPlayer\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="781d60237928a612fa7d4515c8729bc625cb0574">
+        <dex dex="C:\Users\stuar_000\StudioProjects\MyMusicPlayer\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_f308ee3b658feb032e2c57e6f7a76fce46da4ad3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\stuar_000\StudioProjects\MyMusicPlayer\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\stuar_000\StudioProjects\MyMusicPlayer\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_a7476c1e391d87c15e8da56a358a44e4350021f5\classes.dex" />
+    </item>
+
+</items>

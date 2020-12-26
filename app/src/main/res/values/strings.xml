@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MyMusicPlayerActivity!</string>
+    <string name="app_name">My Music Player</string>
+    <string name="phonebuttontext">Play Music\nOn Phone</string>
+    <string name="pcbuttontext">Play Music\nOn Desktop PC</string>
+    <string name="skydrivebuttontext">Play Music\nOn Google Drive</string>
+    <string name="playlistbuttontext">Play Music\nFrom Play List</string>
+    <string name="setanalarmtext">Set Alarm</string>
+    <string name="settingstext">Settings</string>
+</resources>
